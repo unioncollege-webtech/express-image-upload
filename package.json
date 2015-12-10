@@ -1,20 +1,21 @@
 {
-  "name": "express-boilerplate",
+  "name": "express-image-upload",
   "version": "1.0.0",
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "hbs": "^4.0.0"
+    "hbs": "^4.0.0",
+    "multer": "^1.1.0"
   },
   "scripts": {
     "start": "node server.js"
   },
-  "description": "Express 4 application to be used as a starting point",
+  "description": "An example Express boilerplate application with file uploads.",
   "main": "server.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unioncollege-webtech/express-boilerplate.git"
+    "url": "git+https://github.com/unioncollege-webtech/express-image-upload.git"
   },
   "keywords": [
     "Express"
@@ -22,7 +23,7 @@
   "author": "Benjamin Barber",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unioncollege-webtech/express-boilerplate/issues"
+    "url": "https://github.com/unioncollege-webtech/express-image-upload/issues"
   },
-  "homepage": "https://github.com/unioncollege-webtech/express-boilerplate#readme"
+  "homepage": "https://github.com/unioncollege-webtech/express-image-upload#readme"
 }

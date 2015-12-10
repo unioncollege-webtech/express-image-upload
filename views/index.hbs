@@ -4,6 +4,16 @@
 	<a href="https://nodejs.org">Node.js</a> and 
 	<a href="http://expressjs.com">Express</a>.
 </p>
-<p>
-	<img src="/images/code.png" alt="A picture of JavaScript source code.">
-</p>
+
+<form action="/" method="POST" enctype="multipart/form-data">
+	<input type="file" name="upload">
+	<label>Caption <input type="text" name="caption" placeholder="Please enter a caption."></label>
+	<button type="submit">Upload</button>
+</form>
+
+{{#each images}} 
+<figure>
+	<img src="/uploads/{{filename}}" alt="">
+	<figcaption><p>{{caption}}</p></figcaption>
+</figure>
+{{/each}}

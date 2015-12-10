@@ -1,14 +1,13 @@
-Express Boilerplate
-===================
+Express Image Upload
+====================
 
-This is an Express 4 application to be used as a starting point for building 
-dynamic web applications using [Node.js](http://nodejs.org) and
-[Express](http://expressjs.com/).
+This is an Express application using [Express Boilerplate](https://github.com/unioncollege-webtech/express-boilerplate)
+plus [multer](https://github.com/expressjs/multer) for image basic uploads.
 
 ## Install
 
-1. `git clone https://github.com/unioncollege-webtech/express-boilerplate`
-2. `cd express-boilerplate && npm install`
+1. `git clone https://github.com/unioncollege-webtech/express-image-upload`
+2. `cd express-image-upload && npm install`
 3. `npm start`
 
 ## Credits
